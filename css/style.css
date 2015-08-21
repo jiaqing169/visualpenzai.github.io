@@ -179,9 +179,10 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide6{
+	background: url(../img/slider6.jpg) 50% 0 no-repeat fixed;
 	background-color: #fff;
 	height: 200px;
-	color: #333333;
+	color: #fff;
 	height: 300px;
 	padding: 200px 0;
 }
