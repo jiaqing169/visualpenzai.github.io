@@ -2,10 +2,14 @@
 
 var fourthBday = function(){
 	vex.defaultOptions.className = 'vex-theme-os';
-	var todayDateString = "";
 	vex.dialog.alert({
-		message: 'SHOP Celebrates its 4th Birthday !! ',
-		//input: "<div class =\"Upload\"> <a href =\"#\" onclick=\"initUpload()\"> Upload Application Binary</a> </div>\n \n<div class =\"or\">  OR </div>\n \n<div class =\"Search\" > <a href =\"#\" onclick=\"initSearch()\"> Search from Google Playstore </a></div>\n",
-		className:'vex-theme-flat-attack'
+		message: 'Say Happy Birthday to SHOP',
+		input: "<div class =\"birthday\"><img src=\"img/bday.jpg\"/><div class=\"bdaymsg\">SHOP Celebrates its 4th Birthday !!</div></div> ",
+		className:'vex-theme-flat-attack',
 	});
+	
 }
+
+
+
+

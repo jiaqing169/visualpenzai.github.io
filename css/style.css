@@ -101,10 +101,39 @@ a.rpanel:hover{ color: #fff; }
  .quotes_container { width: 800px; margin: 0 auto; }
 #christmas_tree { background: url('../img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
 #divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
-#ribbon { background: url('../img/ribbon.png')no-repeat; width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative; top: -38px; }
+#ribbon { background: url('../img/shop.jpg')no-repeat; width: 100px; height: 100px; margin: 0 auto;  display: block; position: relative; top: 5px; }
 #snowflakes1 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto;  display: block; position: relative; bottom: -54px; left: -102px; }
 #snowflakes2 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto;  display: block; position: relative; bottom: -33px;  right: -100px; }
 
+.container {
+  max-width: 400px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.container div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+}
+
+.next {
+  right: 5px;
+}
+
+.prev {
+  left: 5px;
+}
 
 
 /*= BUTTONS
@@ -165,7 +194,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background: url(../img/slide4.jpg) 50% 0 no-repeat fixed;
 	background-color: #fff;
 	color: #333333;
-	height: 300px;
+	height: 320px;
 	padding: 200px 0;
 }
 
@@ -186,6 +215,28 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	height: 300px;
 	padding: 200px 0;
 }
+
+
+.birthday>img{
+	 height: 100%;
+	 width:100%;
+	 opacity: 0.75;
+}
+
+ .bdaymsg{
+	position: relative;
+    top: -150px;
+    left: 20px;
+	font-size : 30px;
+	font-weight: bold;
+	opacity: 1;
+ }
+ 
+ #slides {
+      display: none;
+	  height:315px;
+    }
+ 
 
 
 /*= FOOTER 
